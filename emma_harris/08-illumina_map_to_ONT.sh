@@ -8,10 +8,9 @@
 #SBATCH --mem=32G
 #SBATCH --time=12:00:00
 #SBATCH --partition=localQ
-set -euo pipefail
 
 # exit if a command fails
-set -e
+set -euo pipefail
 
 # input
 ASSEMBLY="/home/john/student_projects/emma_harris/emma_ONT_hifi-asm_assembly_primary.fasta"

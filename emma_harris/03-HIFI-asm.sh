@@ -8,10 +8,9 @@
 #SBATCH --mem=200G                    # memory requirement
 #SBATCH --time=24:00:00               # walltime limit (HH:MM:SS)
 #SBATCH --partition=localQ            # localQ is default partition on Scamper
-set -euo pipefail
 
 # exit if a command fails
-set -e
+set -euo pipefail
 
 # load environments
 module load hifiasm/0.25.0             

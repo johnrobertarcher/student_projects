@@ -8,10 +8,9 @@
 #SBATCH --mem=32G
 #SBATCH --time=12:00:00
 #SBATCH --partition=localQ
-set -euo pipefail
 
 # exit if a command fails
-set -e
+set -euo pipefail
 
 # load modules
 module load minimap2/2.25

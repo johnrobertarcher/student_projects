@@ -8,10 +8,9 @@
 #SBATCH --mem=4G                      # memory requirement
 #SBATCH --time=00:30:00               # walltime limit (HH:MM:SS)
 #SBATCH --partition=localQ            # localQ is default partition on Scamper
-set -euo pipefail
 
 # exit if a command fails
-set -e
+set -euo pipefail
 
 # load environment
 module load gfatools/0.4-r214           

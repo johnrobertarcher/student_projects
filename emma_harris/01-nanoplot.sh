@@ -6,10 +6,9 @@
 #SBATCH --cpus-per-task=8
 #SBATCH --mem=32G
 #SBATCH --partition=localQ
-set -euo pipefail
 
 # exit if a command fails
-set -e
+set -euo pipefail
 
 # load modules
 module load NanoPlot/1.46.2

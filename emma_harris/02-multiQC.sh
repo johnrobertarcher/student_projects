@@ -6,10 +6,9 @@
 #SBATCH --cpus-per-task=8
 #SBATCH --mem=16G
 #SBATCH --partition=localQ
-set -euo pipefail
 
 # exit if a command fails
-set -e
+set -euo pipefail
 
 # load modules
 module load multiqc/1.8

@@ -8,10 +8,9 @@
 #SBATCH --mem=4G
 #SBATCH --time=00:30:00
 #SBATCH --partition=localQ
-set -euo pipefail
 
 # exit if a command fails
-set -e
+set -euo pipefail
 
 # load environment
 module load seqkit/2.5.2

@@ -31,12 +31,12 @@ fastqc \
     --outdir "$FASTQC_DIR" \
     "$FASTQ_DIR"/*.fastq.gz
 
-# miltiQC
+# multiQC
 multiqc \
     "$FASTQC_DIR" \
     --outdir "$MULTIQC_DIR"
 
-echo "multiQC.sh.sh done"
+echo "multiQC.sh done"
 
 
 

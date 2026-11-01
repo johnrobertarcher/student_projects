@@ -15,7 +15,7 @@ module load fastQC/0.11.7
 module load multiqc/1.8
 
 # input
-FASTQ_DIR="/Data2/john/student_projects/emma_harris/C.elegans/Cross/40-1376067336/00_fastq"
+FASTQ_DIR="/Data2/john/student_projects/emma_harris/C.elegans/Parent/40-1377796707/00_fastq/trimmed/paired"
 
 # output
 FASTQC_DIR="${FASTQ_DIR}/fastqc"
